@@ -1,0 +1,187 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	background:#eeefee;
+}
+
+.bhwhite{background:#ffffff;}
+.container {
+    width: 1024px !important;
+}
+nav{
+	background:#c00100;
+}
+.navbar{margin-bottom:0;}
+.navbar-custom > li > a:hover {background-color: #DB0807 !important;}
+.navbar-custom > li > a : active{background-color: #DB0807 !important;} 
+.logo{margin:3px 0 10px 0;}
+.form-wrapper {
+border: 1px solid #f11817;
+width: 450px;
+overflow: hidden;
+margin: 30px 0 0;
+}
+
+.form-wrapper input {
+width: 336px;
+padding: 12px 10px;
+float: left;    
+font: bold 15px ;
+border: 0;  
+}
+.top_social_icon {height:44px;width:44px;}
+
+.form-wrapper input:focus {
+outline: 0;
+background: #fff;
+}
+
+.form-wrapper input::-webkit-input-placeholder {
+color: #999;
+font-weight: normal;
+font-style: italic;
+}
+
+.form-wrapper input:-moz-placeholder {
+color: #999;
+font-weight: normal;
+font-style: italic;
+}
+
+.form-wrapper input:-ms-input-placeholder {
+color: #999;
+font-weight: normal;
+font-style: italic;
+}    
+
+.form-wrapper button {
+overflow: visible;
+position: relative;
+float: right;
+border: 0;
+padding: 0;
+cursor: pointer;
+height: 44px;
+width: 110px;
+font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
+color: #fff;
+text-transform: uppercase;
+background: #f11817;
+-moz-border-radius: 0 3px 3px 0;
+-webkit-border-radius: 0 3px 3px 0;
+border-radius: 0 3px 3px 0;      
+text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
+} 
+.navbar-nav > li > a{padding-top:12px !important;padding-bottom:12px !important;}  
+.navbar {min-height:44px !important;border:none!important;}
+.form-wrapper button:hover{background: #e54040;}	
+.form-wrapper button:active,.form-wrapper button:focus{background: #c42f2f;}
+.form-wrapper button:before {content: '';position: absolute;border-width: 8px 8px 8px 0;border-style: solid solid solid none;
+border-color: transparent #f11817 transparent;top: 14px;left: -6px;}
+.form-wrapper button:hover:before{border-right-color: #e54040;}
+.form-wrapper button:focus:before{border-right-color: #c42f2f;}    
+.form-wrapper button::-moz-focus-inner {border: 0;padding: 0;}
+.social-icon{margin-top:30px;}
+.social-icon-details{margin-top:30px;}
+.banner{margin:20px 0;}
+.banner-right{padding-left:0px;}
+.banner-right ul{margin:0; padding:0;}	
+.banner-right ul li{margin:0 0 2px; padding:5px 10px 4px; background:#f8f8f8; list-style:none; position:relative;}	
+.banner-right ul li a{color:#666766; font-size:15px;}	
+.banner-right ul li:after{content:'';position:absolute;right:10px;top:14px;background:url(../images/banner-right-arrow.png) no-repeat 0 0;
+z-index:100;width:6px;height:12px;}
+.right-box{border:1px solid #ccc; padding:10px 10px 20px; margin-bottom:20px;}
+.right-box_buttons{padding:10px 0; margin-bottom:20px;}
+.right-box h3{color:#f11817; font-size:18px; font-weight:600; margin:0 0 20px;}
+.right-box ul{margin:0; padding:0;}
+.right-box ul li{margin:0; padding:0; list-style:none;}	
+.right-box ul li p{color:#444444; font-size:13px;}
+.right-box ul li .date{color:#a2a2a2; font-size:14px; display:block;}
+.right-box ul li .temperature{color:#006182; font-size:13px; font-weight:600;}
+.hucked{}
+.hucked img{border:1px solid #ccc;padding:5px; border-radius:8px;}
+.see-more{background:#c00100; padding:5px 10px; color:#fff; font-size:13px; margin-bottom:10px;}
+.see-more:hover{background:#000; color:#fff; text-decoration:none;}
+.deal-box{border: 1px dotted #ccc;overflow: hidden;padding:5px; margin-bottom:10px;}
+.deal-box h3{color:#f11817; font-size:18px; font-weight:500; margin:0 0 10px;}
+.deal-box p{color:#032f3e; font-size:14px; font-weight:500; margin:0 0 10px;}
+.deal-details-title{margin-top:0px;}
+.deal-details{overflow:hidden;padding: 15px; margin-bottom:20px;}
+.deal-details h3{color:#f11817; font-size:20px;margin:0 0 10px;}
+.deal-right{}
+.deal-right h3{color:#000; font-size:22px; font-weight:500; margin-bottom:5px;}
+.deal-right h3 sup{ font-size: 12px;font-weight: bold;padding-left: 2px;}
+sup {top: -0.9em !important;}
+.deal-right .hot-box{margin-bottom:5px;text-align:center;}
+.deal-right .hot-box .btn{width:100% !important;}
+.deal_title{text-decoration:none;}
+.deal_title:hover{text-decoration:none;}
+.deal-box-bottom{border-top:1px dotted #ccc; display:block;margin-right: -30px; padding-top:10px;}
+.deal-box-thumb {max-height:100%;max-width:100%;vertical-align:middle;text-align:center;margin:0 auto;display:block;}
+.deal-box-image {max-width:80%;vertical-align:middle;text-align:center;margin:0 auto;display:block;}
+.deal-box-bottom .phase, .deal-box-bottom .dealhot, .deal-box-bottom .dealcomment{
+display:inline-block; vertical-align:middle; color:#006182;}
+.deal-box-bottom .phase{}
+.deal-box-bottom .dealhot{margin-right:40px;}
+.deal-box-bottom .phase-icon{border-radius:100%;width:45px;height:45px;margin-right:10px;}
+.deal-details-bottom {border-bottom: 0px dotted #ccc;display: block;padding-top:5px;}
+.deal-details-bottom .phase, .deal-details-bottom .dealhot, .deal-details-bottom .dealcomment{
+display:inline-block;color:#006182;font-size:13px;}
+.deal-details-bottom .phase{}
+.deal-details-bottom {margin-right:0px;}
+.deal-details-bottom .phase-icon{border-radius:100%;width:40px;height:40px;margin-right:10px;}
+.deal-box-search-result{border-bottom: 1px dotted #ccc;overflow: hidden;padding:20px; margin-bottom:20px;}
+.deal-box-search-result h3{color:#f11817; font-size:18px; font-weight:500; margin:0 0 10px;}
+.deal-box-search-result p{color:#032f3e; font-size:14px; font-weight:500; margin:0 0 10px;padding-right:10px;}
+.subscribers{background:#f11817;padding:30px 0;}
+.subscribers h3{font-size:16px; color:#fff;margin:10px 0 0 0;}
+.subscribers input{width:100%; background:#fff;padding: 12px 10px; border:0;}
+.subscribers button{border:2px solid #fff; background:none; padding:10px 30px; color:#fff;}
+footer{padding:0px;}
+.footer{padding:30px 20px 20px; background:#ffffff;}
+footer h3{color:#f11817; font-size:22px; font-weight:500;}
+footer .apps-icon{display:block; margin-bottom:10px}
+footer .quick-link{margin:0; padding:0;}
+footer .quick-link li{list-style:none; margin-bottom:5px;}
+footer .quick-link li a{color:#000000; font-size:18px;}
+.white, .white a {color: #fff;}
+.top_nav ul {list-style-type: none;padding: 0;overflow: hidden;}
+.top_nav li {float: left;margin:0px 10px;}
+.top_nav li a {display: block;color:#c00100 ;text-align: center;text-decoration: none;}
+.top_nav li a:hover {color: #000;}
+.copyright{background:#222222; color:#fff; padding:20px 0; font-size:14px;}
+h1 {font-size: 36px;line-height: 40px;}
+
+h2 {font-size: 30px;line-height: 40px;}
+
+h3 {font-size: 24px;line-height: 26px;}
+
+h4 {font-size: 18px;line-height: 20px;font-weight:bold;}
+
+@media (max-width:767px){
+.logo1{text-align:center}
+.form-wrapper{width:350px; margin: 0px auto 0;}
+.form-wrapper input {width: 230px;}
+.social-icon{margin-bottom:15px; margin-top:15px; text-align:center;}
+.social-icon-details{margin-bottom:15px; margin-top:15px;text-align:center;}
+.banner-right{padding-left:0;}
+.deal-box-thumb{max-width:100%; margin-bottom:20px;}
+.deal-right{margin-bottom:20px;text-align: center;}
+.hucked{text-align:center;}
+.right-box{text-align:center;}
+.subscribers h3{text-align:center; margin-bottom:10px;}
+.sub_btn{text-align:center; margin-top:10px;}
+.footer{text-align:center;}
+footer .apps-icon{display:inline-block;}
+.container {width: 750px !important;}
+.deal-details h3{margin:0;}
+.deal-details-title{margin-top:20px;}
+}
+
+@media (max-width:500px){
+	
+	.container {width:100% !important;}
+}
+@media (max-width:385px){
+	
+	.container {width:100% !important;}
+}
